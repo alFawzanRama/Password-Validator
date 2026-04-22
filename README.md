@@ -2,7 +2,7 @@
 A real-time password strength validator built with JavaScript, focusing on security best practices, Regular Expressions (RegEx), and interactive UI/UX.
 
 ## 🚀 Live Demo
-[Insert your GitHub Pages link here]
+https://alfawzanrama.github.io/Password-Validator/
 
 ## Features
 * **Real-time Analysis:** Evaluates password strength as the user types.

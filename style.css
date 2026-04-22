@@ -18,11 +18,11 @@ body {
 .container {
     width: 90%;
     max-width: 450px;
-    min-height: 500px;
-    background: rgba(255, 255, 255, 0.8);
-    padding: 50px 30px;
+    height: auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px 30px;
     border-radius: 30px;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(15px);
     text-align: center;
     box-shadow: 0 15px 35px rgba(255, 182, 193, 0.4);
 }

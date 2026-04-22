@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Validator</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h2>How Strong Is Your Password?</h2>
+        <div class="input-area">
+            <input type="password" id="password" placeholder="Enter Password" autocomplete="new-password">
+            <span class="toggle" id="togglebtn">Show</span>
+        </div>
+        <div class="strength-eval">
+            <div class="strengthEval" id="strengthBar"></div>
+        </div>
+        <p id="strengthIndicator"></p>
+        <div id="viewRules" class="rules-toggle">View Password Rules</div>
+        <ul id="rulesList" class="rules-list">
+            <li>At least 8 characters</li>
+            <li>Uppercase & Lowercase</li>
+            <li>Numbers & Symbols ($@#&!)</li>
+    </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
